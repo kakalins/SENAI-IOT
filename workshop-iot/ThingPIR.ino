@@ -10,7 +10,7 @@ int acionamento; //Variavel para guardar valor do sensor
 
 //constantes e variáveis globais
 char EnderecoAPIThingSpeak[] = "api.thingspeak.com";
-String ChaveEscritaThingSpeak = "KGFP6X4JQTJZFIAP";
+String ChaveEscritaThingSpeak = "KGFP6XTHJDGHZFIAP";
 long lastConnectionTime; 
 WiFiClient client;
 
