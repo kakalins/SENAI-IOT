@@ -8,13 +8,13 @@
 DHT dht(D4,DHT11);
   
 //Definir o SSID da rede WiFi
-const char* ssid = "GVT-093B";
+const char* ssid = "ID-da-sua-WiFi";     // <--ALTERAR AQUI
 //Definir a senha da rede WiFi
-const char* password = "S1F4531025";
+const char* password = "Senha-da-WiFi";  // <--ALTERAR AQUI
  
 //Colocar a API Key para escrita neste campo
 //Ela é fornecida no canal que foi criado na aba API Keys
-String apiKey = "YWLLC4JHBPBJ06M2";
+String apiKey = "YWLLCfgrtPBJ06M2";      // <--ALTERAR AQUI
 const char* server = "api.thingspeak.com";
 
 WiFiClient client;
